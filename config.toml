@@ -1,0 +1,137 @@
+baseURL = "https://lamontchan.com"
+title = "lamontchan"
+theme = "hugo-coder"
+languagecode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+# Enable Disqus comments
+#disqusShortname = "yourdiscussshortname"
+
+[params]
+author = "Lamont Chan"
+info = ["Full Stack", "DevOps", "Educator"]
+description = "Lamont's personal website"
+keywords = "blog,developer,personal"
+avatarURL = "images/avatar.jpg"
+#gravatar = "john.doe@example.com"
+
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
+
+footerContent = "Life is nothing but a series of rough drafts ✍️"
+dateFormat = "January 2, 2006"
+hideFooter = false
+hideCredits = false
+hideCopyright = false
+since = 2021
+
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+# Right to Left, shift content direction for languages such as Arabic
+rtl = false
+
+# Enable Twitter emoji
+enableTwemoji = true
+
+# Color scheme: auto, dark, or light
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+# Series see also post count
+maxSeeAlsoItems = 5
+
+customCSS = []
+customSCSS = []
+customJS = []
+
+googleAnalytics = "G-8VP7M1PGBQ"
+
+# Allows raw html in markdown
+# https://gohugo.io/getting-started/configuration-markup#goldmark
+[markup.goldmark.renderer]
+unsafe = true
+
+# Content Security Policy
+[params.csp]
+childsrc = ["'self'"]
+fontsrc = [
+  "'self'",
+  "https://fonts.gstatic.com",
+  "https://cdn.jsdelivr.net/"
+]
+formaction = ["'self'"]
+framesrc = ["'self'", "https://giphy.com"]
+imgsrc = [
+  "'self'",
+  "https://upload.wikimedia.org"
+]
+objectsrc = ["'none'"]
+stylesrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://fonts.googleapis.com/",
+  "https://cdn.jsdelivr.net/"
+]
+scriptsrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://www.google-analytics.com"
+]
+prefetchsrc = ["'self'"]
+# connect-src defines valid targets for XMLHttpRequest (AJAX), WebSockets, or EventSource
+connectsrc = [
+  "'self'",
+  "https://www.google-analytics.com"
+]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+# Social links
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 1
+url = "https://linkedin.com/in/lamontchan"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 2
+url = "https://github.com/kronomon"
+
+[[params.social]]
+name = "Youtube"
+icon = "fa fa-youtube fa-2x"
+weight = 3
+url = "https://www.youtube.com/channel/UC2bHfaSkEfCSXvIiv77zQ_Q"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 4
+url = "https://twitter.com/lamontkwc"
+
+# Menu links
+[[menu.main]]
+name = "Blog"
+weight = 1
+url  = "posts/"
+
+[[menu.main]]
+name = "About"
+weight = 2
+url = "about/"
+
+[[menu.main]]
+name = "Contact"
+weight = 3
+url = "contact/"
