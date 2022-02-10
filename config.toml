@@ -12,6 +12,8 @@ enableEmoji = true
 # Enable Disqus comments
 #disqusShortname = "yourdiscussshortname"
 
+googleAnalytics = "G-8VP7M1PGBQ"
+
 [params]
 author = "Lamont Chan"
 info = ["Full Stack", "DevOps", "Educator"]
@@ -81,6 +83,7 @@ scriptsrc = [
   "'self'",
   "'unsafe-inline'",
   "https://www.google-analytics.com"
+  "https://www.googletagmanager.com"
 ]
 prefetchsrc = ["'self'"]
 # connect-src defines valid targets for XMLHttpRequest (AJAX), WebSockets, or EventSource
