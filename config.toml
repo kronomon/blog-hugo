@@ -82,7 +82,7 @@ stylesrc = [
 scriptsrc = [
   "'self'",
   "'unsafe-inline'",
-  "https://www.google-analytics.com"
+  "https://www.google-analytics.com",
   "https://www.googletagmanager.com"
 ]
 prefetchsrc = ["'self'"]
