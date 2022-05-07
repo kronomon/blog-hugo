@@ -7,6 +7,9 @@ authors = ["Lamont"]
 
 
 ### BC Daycare Locater Map 👶🗺️
+
+Licensed childcare facilities map for Fraser Health region in Vancouver, BC
+
 * Flask backend
 * Google Maps API - Geocoding & map display
 * Bootstrap5
