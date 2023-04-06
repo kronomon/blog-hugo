@@ -1,0 +1,201 @@
+baseURL: "https://lamontchan.com"
+title: Lamont Chan
+theme: PaperMod
+paginate: 20
+
+enableRobotsTxt: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: G-8VP7M1PGBQ
+
+# languagecode: "en"
+# defaultContentLanguage: "en"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# pygmentsStyle: "bw"
+# pygmentsCodeFences: true
+# pygmentsCodeFencesGuessSyntax: true
+# enableEmoji: true
+
+# Enable Disqus comments
+#disqusShortname: "yourdiscussshortname"
+
+
+params:
+  env: production
+  title: Lamont Chan
+  author: "Lamont Chan"
+  description: "Lamont's personal website"
+  info: ["Full Stack", "DevOps", "Educator"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon32x32: "/img/favicon-32x32.png"
+    favicon16x16: "/img/favicon-16x16.png"
+
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Lamont 👋"
+    subtitle: "Software Engineer, Problem Solver"
+    imageUrl: "images/avatar.jpg"
+    imageTitle: "Yup, that's my head :)"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: Who am I?
+        url: about
+
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/lamontchan"
+    - name: github
+      url: "https://github.com/kronomon"
+    - name: youtube
+      url: "https://www.youtube.com/channel/UC2bHfaSkEfCSXvIiv77zQ_Q"
+    - name: twitter
+      url: "https://twitter.com/lamontkwc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: Blog
+      name: Blog
+      url: posts
+      weight: 10
+    #- identifier: Services
+    #  name: Services
+    #  url: services
+    #  weight: 20
+    - identifier: Projects
+      name: Projects
+      url: projects
+      weight: 30
+    - identifier: About
+      name: About
+      url: about
+      weight: 40
+    - identifier: Contact
+      name: Contact
+      url: contact
+      weight: 50
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+
+
+# Content Security Policy
+#[params.csp]
+#childsrc: ["'self'"]
+#fontsrc: [
+#  "'self'",
+#  "https://fonts.gstatic.com",
+#  "https://cdn.jsdelivr.net/"
+#]
+#formaction: ["'self'"]
+#framesrc: ["'self'", "https://giphy.com"]
+#imgsrc: [
+#  "'self'",
+#  "https://upload.wikimedia.org",
+#  "https://www.googletagmanager.com"
+#]
+#objectsrc: ["'none'"]
+#stylesrc: [
+#  "'self'",
+##  "'unsafe-inline'",
+#  "https://fonts.googleapis.com/",
+#  "https://cdn.jsdelivr.net/"
+#]
+#scriptsrc: [
+#  "'self'",
+#  "'unsafe-inline'",
+#  "https://www.google-analytics.com",
+#  "https://www.googletagmanager.com"
+#]
+#prefetchsrc: ["'self'"]
+## connect-src defines valid targets for XMLHttpRequest (AJAX), WebSockets, or EventSource
+#connectsrc: [
+#  "'self'",
+#  "https://www.google-analytics.com"
+#]
+#
+#[taxonomies]
+#category: "categories"
+#series: "series"
+#tag: "tags"
+#author: "authors"
+#
+#
+#
+## Menu links
+#[[menu.main]]
+#name: "Blog"
+#weight: 3
+#url : "posts/"
+#
+#[[menu.main]]
+#name: "Services"
+#weight: 1
+#url: "services/"
+#
+#[[menu.main]]
+#name: "Projects"
+#weight: 2
+#url: "projects/"
+#
+#[[menu.main]]
+#name: "About"
+#weight: 4
+#url: "about/"
+#
+#[[menu.main]]
+#name: "Contact"
+#weight: 5
+#url: "contact/"
+#
