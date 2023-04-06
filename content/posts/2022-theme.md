@@ -2,8 +2,7 @@
 author = "Lamont"
 title = "2022 Theme: Exploration"
 date = "2022-02-01"
-description = "2022 Theme: Exploration"
-tags = []
+tags = ["theme"]
 +++
 
 # What is a Theme?
