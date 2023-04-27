@@ -5,6 +5,10 @@ authors: ["Lamont"]
 ShowBreadCrumbs: false
 ---
 
+* [BC Daycare Locater Map](#bc-daycare-locater-map-)
+* [Yahoo Fantasy Hockey Assistant](#yahoo-fantasy-hockey-assistant-)
+* [Charred Designs](#charred-designs-website)
+* [This Webiste](#personal-website-this-project)
 
 # BC Daycare Locater Map 👶🗺️
 
@@ -42,3 +46,32 @@ I created a Chrome Extension that automates predictions based on a player's per-
 ### Links
 * [Extension](https://chrome.google.com/webstore/detail/fantasy-hockey-assistant/ojcnjbfcabkjbndahgpiocpkofldojpk?hl=en)
 * [Github](https://github.com/kronomon/fantasy-hockey-assistant)
+
+---
+# Charred Designs Website
+
+### Overview
+Charred Designs is a website that I designed and implemented for a laser-engraving small business. It serves as a landing page for clients to learn more about the creators.
+
+![Charred Designs Website](/images/charreddesigns-screen1.png)
+
+
+### Tech Stack
+* Wordpress
+* Deployed on DigitalOcean
+
+### Links
+* [Website](https://charreddesigns.ca)
+
+---
+# Personal Website (This Project!)
+
+### Overview
+I created this website as a place to showcase my work and a place to practice blogging. I chose Hugo for its speed and its use of Markdown language for blog posts.
+
+### Tech Stack
+* Hugo framework
+* Deployed on AWS Amplify
+
+### Links
+* [Github](https://github.com/kronomon/blog-hugo)

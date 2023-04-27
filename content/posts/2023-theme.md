@@ -6,7 +6,7 @@ tags = ["theme"]
 +++
 
 # New Year, New You 🍾
-In 2022, I had a year of [Exploration](2022-theme). The overarching theme of adventure was helpful in guiding my decisions throughout the year.
+In 2022, I had a year of [Exploration](/posts/2022-theme). The overarching theme of adventure was helpful in guiding my decisions throughout the year.
 
 This year, my theme is **Creativity**
 
